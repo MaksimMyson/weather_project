@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/Logo.png" alt="Weather Logo">
+        </div>
+        <div class="navigation">
+            <ul class="nav">
+                <li><a href="#" id="today-tab">Today</a></li>
+                <li><a href="#" id="forecast-tab">5-day Forecast</a></li>
+            </ul>
+        </div>
+        <div class="ser">
+            <input type="text" id="search" placeholder="Search">
+            <button id="search-button">Search</button>
+        </div>
+    </div>
+
+    <div class="weather-today" id="today-content">
+        <div class="weather-info">
+            <h2 id="date">Date</h2>
+            <div class="weather-main">
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <p id="description">Description</p>
+            </div>
+            <div class="temperature">
+                <p id="temperature">Temperature</p>
+                <p id="feels-like">Feels Like</p>
+            </div>
+            <div class="sun-times">
+                <p id="sunrise">Sunrise: </p>
+                <p id="sunset">Sunset: </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hourly-forecast" id="hourly-forecast">
+       
+    </div>
+
+    <div class="forecast-5-days" id="forecast-5-days">
+        <h2>5-day Forecast</h2>
+        <div class="daily-forecast">
+            
+        </div>
+        <div class="hourly-forecast-5day" id="hourly-forecast-5day">
+          
+        </div>
+    </div>
+
+    <script type="module" src="JS/script.js"></script>
+</body>
+</html>
